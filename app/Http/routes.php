@@ -11,6 +11,17 @@
 |
 */
 
+
+/*
+
+
+Route::get('test',function(){
+  return 'get请求';
+});
+
+*/
+
+
 Route::get('/', 'StaticPagesController@home');
 Route::get('/help', 'StaticPagesController@help');
 Route::get('/about', 'StaticPagesController@about');
